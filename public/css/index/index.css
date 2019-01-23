@@ -1,0 +1,32 @@
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand{
+	padding: 0;
+}
+.navbar-default .navbar-nav>li>a{color: #fff;}
+.navbar-default .navbar-nav>li>a{color: #fff;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a{
+	background: #fff;
+}
+.navbar-default{background: deepskyblue}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{background: #fff;}
+.navbar{margin: 0;}
+
+/*竖列导航*/
+			#content{display: flex;width: 100%;height: 100%;}
+			#content>#tabBar{width:15%;height: 100%;border-right: 1px solid #cdcdcd;}
+			#content>#tabBar>div>.tabNav{display:flex;align-content:center;flex-wrap:wrap;margin-top: 50px;}
+			#content>#tabBar>div>.tabNav>li{width: 100%;border-bottom:1px solid #cdcdcd;padding-left: 30px;line-height:40px ;}
+			#content>#tabBar>div>.tabNav>li a{display: block;height: 40px;width: 100%;}
+			#content>#tabBar>div>.tabNav>li>ul{width: 100%;padding-left:40px ;display: none;}
+			#content>#details{width:85%;height: 100%;}
+			#content>#details form{margin:100px 200px;width: 380px;}
+			
+			/*分页*/
+			#content .listpage{overflow: hidden;}
+			#content .company-item{padding:10px;text-align: center;width: 200px;margin: 30px;float: left;}
+			/*#content .company-item:hover{box-shadow: 3px 3px 3px #999999;border: 1px solid #cdcdcd;}*/
+			#content .company-item .company_t .company-logo img{width: 100px;height: 100px;}
+			#content .company-item .company_t .company-logo{width: 100px;height: 100px;margin: 0 auto;}
+			
+			#content #laypage{position: absolute;bottom: 40px;left:50%}
+/*扇形统计图*/
+#main{width:800px;height: 450px;margin: 0 auto;margin-top: 30px;}
